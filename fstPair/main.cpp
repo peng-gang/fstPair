@@ -7,6 +7,9 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include "normal.h"
+#include "functions.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
