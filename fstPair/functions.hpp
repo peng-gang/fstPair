@@ -33,5 +33,20 @@
  */
 std::map<std::string, int>  getSampleSize(std::string filename);
 
+/*
+ calculaiton fst with Hudson method (biased estimation)
+ */
+double fstHudson(double p1, double p2);
+/*
+ calculaiton fst with Hudson method (unbiased estimation)
+ */
+double fstHudson(double p1, double p2, int s1, int s2);
+
+double fstNHudson(double p1, double p2);
+
+double fstNHudson(double p1, double p2, int s1, int s2);
+
+double fstDHudson(double p1, double p2);
+
 
 #endif /* functions_hpp */
